@@ -1,0 +1,16 @@
+!*.yaml
+!.gitignore
+!*.md
+
+.storage
+.cloud
+.vscode
+.google.token
+.ssh
+
+*.log*
+*.db*
+
+ip_bans.yaml
+secrets.yaml
+known_devices.yaml
