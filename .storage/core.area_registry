@@ -34,8 +34,8 @@
       },
       {
         "aliases": [
-          "terrazza",
-          "terrazzo"
+          "terrazzo",
+          "terrazza"
         ],
         "name": "Balcone",
         "id": "balcone",
@@ -53,6 +53,12 @@
         "aliases": [],
         "name": "Studio",
         "id": "studio",
+        "picture": null
+      },
+      {
+        "aliases": [],
+        "name": "Bagno",
+        "id": "bagno",
         "picture": null
       }
     ]

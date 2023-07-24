@@ -47,7 +47,57 @@
         "disabled_by": null
       },
       {
-        "entry_id": "b7224d7dba87fd5d9a8901ed16667343",
+        "entry_id": "165b003feb1d872b33903cf8537e02d7",
+        "version": 1,
+        "domain": "shelly",
+        "title": "shelly-luce-camera",
+        "data": {
+          "host": "shelly-luce-camera",
+          "sleep_period": 0,
+          "model": "SHSW-25",
+          "gen": 1
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "D8BFC01A416E",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "21d4dc1663a5770c5e72deefa369afcf",
+        "version": 1,
+        "domain": "switch_as_x",
+        "title": "shelly-luce-camera channel 1",
+        "data": {},
+        "options": {
+          "entity_id": "switch.shelly_luce_camera_channel_1",
+          "target_domain": "light"
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "cea2de752f562fa732386d78a52c4521",
+        "version": 1,
+        "domain": "switch_as_x",
+        "title": "shelly-luce-camera channel 2",
+        "data": {},
+        "options": {
+          "entity_id": "switch.shelly_luce_camera_channel_2",
+          "target_domain": "light"
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "5cbaedc47b6a12b301a24bb27c3e8e9f",
         "version": 1,
         "domain": "shelly",
         "title": "shelly-luce-studio",
@@ -62,6 +112,318 @@
         "pref_disable_polling": false,
         "source": "user",
         "unique_id": "40F52001C09F",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "614d9278062e7fb169f4b8ce6df79058",
+        "version": 1,
+        "domain": "switch_as_x",
+        "title": "shelly-luce-studio",
+        "data": {},
+        "options": {
+          "entity_id": "switch.shelly_luce_studio",
+          "target_domain": "light"
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "a1f479d9dda168e224c4fdd77c9e6f5e",
+        "version": 1,
+        "domain": "shelly",
+        "title": "shelly-luce-corridoio-notte",
+        "data": {
+          "host": "shelly-luce-corridoio-notte",
+          "sleep_period": 0,
+          "model": "SHSW-1",
+          "gen": 1
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "E868E786BEAA",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "f0ae369d67eb7774c2d95706f6b9bdbb",
+        "version": 1,
+        "domain": "shelly",
+        "title": "shelly-luce-corridoio-giorno",
+        "data": {
+          "host": "shelly-luce-corridoio-giorno",
+          "sleep_period": 0,
+          "model": "SHSW-1",
+          "gen": 1
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "10521CF273C6",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "76799309cd7dac561772d2ada51ffa4f",
+        "version": 1,
+        "domain": "shelly",
+        "title": "shelly-luce-cucina",
+        "data": {
+          "host": "shelly-luce-cucina",
+          "sleep_period": 0,
+          "model": "SHSW-1",
+          "gen": 1
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "485519C8F5DF",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "bf01da5941d16f1cc27fb4bd9f0de560",
+        "version": 1,
+        "domain": "shelly",
+        "title": "shelly-luce-sala",
+        "data": {
+          "host": "shelly-luce-sala",
+          "sleep_period": 0,
+          "model": "SHSW-25",
+          "gen": 1
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "D8BFC01A6246",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "67164526936298e9cf513a19bf1b735e",
+        "version": 1,
+        "domain": "shelly",
+        "title": "shelly-balcone",
+        "data": {
+          "host": "shelly-balcone",
+          "sleep_period": 0,
+          "model": "SHSW-25",
+          "gen": 1
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "D8BFC01A4A59",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "00584877189782a1fced2f6c9f1fed75",
+        "version": 1,
+        "domain": "switch_as_x",
+        "title": "shelly-balcone channel 2",
+        "data": {},
+        "options": {
+          "entity_id": "switch.shelly_balcone_channel_2",
+          "target_domain": "light"
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "d4d97401f4804938823e96959d37f931",
+        "version": 1,
+        "domain": "switch_as_x",
+        "title": "shelly-luce-corridoio-giorno",
+        "data": {},
+        "options": {
+          "entity_id": "switch.shelly_luce_corridoio_giorno",
+          "target_domain": "light"
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "d4e4f6856ab4d79fe953a987efd36764",
+        "version": 1,
+        "domain": "switch_as_x",
+        "title": "shelly-luce-corridoio-notte",
+        "data": {},
+        "options": {
+          "entity_id": "switch.shelly_luce_corridoio_notte",
+          "target_domain": "light"
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "f9ae43e237133daf4027f5271417f6e0",
+        "version": 1,
+        "domain": "switch_as_x",
+        "title": "shelly-luce-sala channel 1",
+        "data": {},
+        "options": {
+          "entity_id": "switch.shelly_luce_sala_channel_1",
+          "target_domain": "light"
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "9d3f6e7debb62ba9faa480f529cdf3e0",
+        "version": 1,
+        "domain": "switch_as_x",
+        "title": "shelly-luce-sala channel 2",
+        "data": {},
+        "options": {
+          "entity_id": "switch.shelly_luce_sala_channel_2",
+          "target_domain": "light"
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "a52a70529e4ee2b355da05255c5e6a32",
+        "version": 1,
+        "domain": "shelly",
+        "title": "shelly-tapparella-studio",
+        "data": {
+          "host": "shelly-tapparella-studio",
+          "sleep_period": 0,
+          "model": "SNSW-102P16EU",
+          "gen": 2
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "08B61FCBF3DC",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "4c707c2671ea2a8cf38e8d8f22a189d4",
+        "version": 1,
+        "domain": "shelly",
+        "title": "shelly-tapparella-camera",
+        "data": {
+          "host": "shelly-tapparella-camera",
+          "sleep_period": 0,
+          "model": "SNSW-102P16EU",
+          "gen": 2
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "C049EF84C568",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "fb4a47974f2eacb0a88fa1027c0409ca",
+        "version": 1,
+        "domain": "shelly",
+        "title": "shelly-tapparella-bagno",
+        "data": {
+          "host": "shelly-tapparella-bagno",
+          "sleep_period": 0,
+          "model": "SNSW-102P16EU",
+          "gen": 2
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "441793D0B294",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "07cc962238ac2583e01688104fe4286c",
+        "version": 1,
+        "domain": "shelly",
+        "title": "shelly-tapparella-lavanderia",
+        "data": {
+          "host": "shelly-tapparella-lavanderia",
+          "sleep_period": 0,
+          "model": "SNSW-102P16EU",
+          "gen": 2
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "3CE90E2F2114",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "5d6f8971088b6baf2a69aa282eb64b1f",
+        "version": 1,
+        "domain": "shelly",
+        "title": "shelly-tapparella-cucina",
+        "data": {
+          "host": "shelly-tapparella-cucina",
+          "sleep_period": 0,
+          "model": "SNSW-102P16EU",
+          "gen": 2
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "08B61FCC27E8",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "544d8862be321bb6cb91bfad062dde3c",
+        "version": 1,
+        "domain": "shelly",
+        "title": "shelly-tapparella-sala-tavolo",
+        "data": {
+          "host": "shelly-tapparella-sala-tavolo",
+          "sleep_period": 0,
+          "model": "SNSW-102P16EU",
+          "gen": 2
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "C049EF875144",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "5d830f9d733c20001c3a5e502cca5976",
+        "version": 1,
+        "domain": "shelly",
+        "title": "shelly-tapparella-sala-divano",
+        "data": {
+          "host": "shelly-tapparella-sala-divano",
+          "sleep_period": 0,
+          "model": "SNSW-102P16EU",
+          "gen": 2
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "B48A0A225400",
         "disabled_by": null
       }
     ]

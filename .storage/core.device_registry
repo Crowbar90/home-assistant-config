@@ -29,9 +29,36 @@
         "via_device_id": null
       },
       {
-        "area_id": null,
+        "area_id": "camera_da_letto",
         "config_entries": [
-          "b7224d7dba87fd5d9a8901ed16667343"
+          "cea2de752f562fa732386d78a52c4521",
+          "165b003feb1d872b33903cf8537e02d7",
+          "21d4dc1663a5770c5e72deefa369afcf"
+        ],
+        "configuration_url": "http://shelly-luce-camera",
+        "connections": [
+          [
+            "mac",
+            "d8:bf:c0:1a:41:6e"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "gen1 (SHSW-25)",
+        "id": "10c2988fb2322f0981fc1b5bd29aa2f9",
+        "identifiers": [],
+        "manufacturer": "Shelly",
+        "model": "Shelly 2.5",
+        "name_by_user": null,
+        "name": "shelly-luce-camera",
+        "sw_version": "20230503-095750/v1.13.0-g9aed950",
+        "via_device_id": null
+      },
+      {
+        "area_id": "studio",
+        "config_entries": [
+          "614d9278062e7fb169f4b8ce6df79058",
+          "5cbaedc47b6a12b301a24bb27c3e8e9f"
         ],
         "configuration_url": "http://shelly-luce-studio",
         "connections": [
@@ -50,6 +77,299 @@
         "name_by_user": null,
         "name": "shelly-luce-studio",
         "sw_version": "20230503-095514/v1.13.0-g9aed950",
+        "via_device_id": null
+      },
+      {
+        "area_id": "corridoio",
+        "config_entries": [
+          "d4e4f6856ab4d79fe953a987efd36764",
+          "a1f479d9dda168e224c4fdd77c9e6f5e"
+        ],
+        "configuration_url": "http://shelly-luce-corridoio-notte",
+        "connections": [
+          [
+            "mac",
+            "e8:68:e7:86:be:aa"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "gen1 (SHSW-1)",
+        "id": "f6aa224847691714f32e22aa37a957ef",
+        "identifiers": [],
+        "manufacturer": "Shelly",
+        "model": "Shelly 1",
+        "name_by_user": null,
+        "name": "shelly-luce-corridoio-notte",
+        "sw_version": "20230503-095514/v1.13.0-g9aed950",
+        "via_device_id": null
+      },
+      {
+        "area_id": "corridoio",
+        "config_entries": [
+          "f0ae369d67eb7774c2d95706f6b9bdbb",
+          "d4d97401f4804938823e96959d37f931"
+        ],
+        "configuration_url": "http://shelly-luce-corridoio-giorno",
+        "connections": [
+          [
+            "mac",
+            "10:52:1c:f2:73:c6"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "gen1 (SHSW-1)",
+        "id": "c0e61aa9f1c00824182a6c065b474c3d",
+        "identifiers": [],
+        "manufacturer": "Shelly",
+        "model": "Shelly 1",
+        "name_by_user": null,
+        "name": "shelly-luce-corridoio-giorno",
+        "sw_version": "20230503-095514/v1.13.0-g9aed950",
+        "via_device_id": null
+      },
+      {
+        "area_id": "cucina",
+        "config_entries": [
+          "76799309cd7dac561772d2ada51ffa4f"
+        ],
+        "configuration_url": "http://shelly-luce-cucina",
+        "connections": [
+          [
+            "mac",
+            "48:55:19:c8:f5:df"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "gen1 (SHSW-1)",
+        "id": "3077a948cc41cb093ee8f8f55b1acdd4",
+        "identifiers": [],
+        "manufacturer": "Shelly",
+        "model": "Shelly 1",
+        "name_by_user": null,
+        "name": "shelly-luce-cucina",
+        "sw_version": "20230503-095514/v1.13.0-g9aed950",
+        "via_device_id": null
+      },
+      {
+        "area_id": "sala",
+        "config_entries": [
+          "bf01da5941d16f1cc27fb4bd9f0de560",
+          "9d3f6e7debb62ba9faa480f529cdf3e0",
+          "f9ae43e237133daf4027f5271417f6e0"
+        ],
+        "configuration_url": "http://shelly-luce-sala",
+        "connections": [
+          [
+            "mac",
+            "d8:bf:c0:1a:62:46"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "gen1 (SHSW-25)",
+        "id": "c7ea0e7c04a80b483bb5c2dd38886aee",
+        "identifiers": [],
+        "manufacturer": "Shelly",
+        "model": "Shelly 2.5",
+        "name_by_user": null,
+        "name": "shelly-luce-sala",
+        "sw_version": "20230503-095750/v1.13.0-g9aed950",
+        "via_device_id": null
+      },
+      {
+        "area_id": "balcone",
+        "config_entries": [
+          "00584877189782a1fced2f6c9f1fed75",
+          "67164526936298e9cf513a19bf1b735e"
+        ],
+        "configuration_url": "http://shelly-balcone",
+        "connections": [
+          [
+            "mac",
+            "d8:bf:c0:1a:4a:59"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "gen1 (SHSW-25)",
+        "id": "0e6844afff5efb2ee708440d441a8817",
+        "identifiers": [],
+        "manufacturer": "Shelly",
+        "model": "Shelly 2.5",
+        "name_by_user": null,
+        "name": "shelly-balcone",
+        "sw_version": "20230503-095750/v1.13.0-g9aed950",
+        "via_device_id": null
+      },
+      {
+        "area_id": "studio",
+        "config_entries": [
+          "a52a70529e4ee2b355da05255c5e6a32"
+        ],
+        "configuration_url": "http://shelly-tapparella-studio",
+        "connections": [
+          [
+            "mac",
+            "08:b6:1f:cb:f3:dc"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "gen2 (SNSW-102P16EU)",
+        "id": "6c3f5836ea588f0e876d56b90458af6d",
+        "identifiers": [],
+        "manufacturer": "Shelly",
+        "model": "Shelly Plus 2PM",
+        "name_by_user": null,
+        "name": "shelly-tapparella-studio",
+        "sw_version": "20230308-091102/0.14.1-g22a4cb7",
+        "via_device_id": null
+      },
+      {
+        "area_id": "camera_da_letto",
+        "config_entries": [
+          "4c707c2671ea2a8cf38e8d8f22a189d4"
+        ],
+        "configuration_url": "http://shelly-tapparella-camera",
+        "connections": [
+          [
+            "mac",
+            "c0:49:ef:84:c5:68"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "gen2 (SNSW-102P16EU)",
+        "id": "61f6691f1dfbc8f185877530f00758af",
+        "identifiers": [],
+        "manufacturer": "Shelly",
+        "model": "Shelly Plus 2PM",
+        "name_by_user": null,
+        "name": "shelly-tapparella-camera",
+        "sw_version": "20230308-091102/0.14.1-g22a4cb7",
+        "via_device_id": null
+      },
+      {
+        "area_id": "bagno",
+        "config_entries": [
+          "fb4a47974f2eacb0a88fa1027c0409ca"
+        ],
+        "configuration_url": "http://shelly-tapparella-bagno",
+        "connections": [
+          [
+            "mac",
+            "44:17:93:d0:b2:94"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "gen2 (SNSW-102P16EU)",
+        "id": "fbe2f012b8c3f08d3b1e4ff040004932",
+        "identifiers": [],
+        "manufacturer": "Shelly",
+        "model": "Shelly Plus 2PM",
+        "name_by_user": null,
+        "name": "shelly-tapparella-bagno",
+        "sw_version": "20230308-091102/0.14.1-g22a4cb7",
+        "via_device_id": null
+      },
+      {
+        "area_id": "lavanderia",
+        "config_entries": [
+          "07cc962238ac2583e01688104fe4286c"
+        ],
+        "configuration_url": "http://shelly-tapparella-lavanderia",
+        "connections": [
+          [
+            "mac",
+            "3c:e9:0e:2f:21:14"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "gen2 (SNSW-102P16EU)",
+        "id": "b32a6573ee8ada9fdc1f86442c1c89f2",
+        "identifiers": [],
+        "manufacturer": "Shelly",
+        "model": "Shelly Plus 2PM",
+        "name_by_user": null,
+        "name": "shelly-tapparella-lavanderia",
+        "sw_version": "20230308-091102/0.14.1-g22a4cb7",
+        "via_device_id": null
+      },
+      {
+        "area_id": "cucina",
+        "config_entries": [
+          "5d6f8971088b6baf2a69aa282eb64b1f"
+        ],
+        "configuration_url": "http://shelly-tapparella-cucina",
+        "connections": [
+          [
+            "mac",
+            "08:b6:1f:cc:27:e8"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "gen2 (SNSW-102P16EU)",
+        "id": "fb35dfa3cc0df08e15be5f126fb8dd56",
+        "identifiers": [],
+        "manufacturer": "Shelly",
+        "model": "Shelly Plus 2PM",
+        "name_by_user": null,
+        "name": "shelly-tapparella-cucina",
+        "sw_version": "20230308-091102/0.14.1-g22a4cb7",
+        "via_device_id": null
+      },
+      {
+        "area_id": "sala",
+        "config_entries": [
+          "544d8862be321bb6cb91bfad062dde3c"
+        ],
+        "configuration_url": "http://shelly-tapparella-sala-tavolo",
+        "connections": [
+          [
+            "mac",
+            "c0:49:ef:87:51:44"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "gen2 (SNSW-102P16EU)",
+        "id": "135a70897de03754819d81b7fbdc752a",
+        "identifiers": [],
+        "manufacturer": "Shelly",
+        "model": "Shelly Plus 2PM",
+        "name_by_user": null,
+        "name": "shelly-tapparella-sala-tavolo",
+        "sw_version": "20230308-091102/0.14.1-g22a4cb7",
+        "via_device_id": null
+      },
+      {
+        "area_id": "sala",
+        "config_entries": [
+          "5d830f9d733c20001c3a5e502cca5976"
+        ],
+        "configuration_url": "http://shelly-tapparella-sala-divano",
+        "connections": [
+          [
+            "mac",
+            "b4:8a:0a:22:54:00"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "gen2 (SNSW-102P16EU)",
+        "id": "038622c49a95f1f3249dcdc12d44c5fe",
+        "identifiers": [],
+        "manufacturer": "Shelly",
+        "model": "Shelly Plus 2PM",
+        "name_by_user": null,
+        "name": "shelly-tapparella-sala-divano",
+        "sw_version": "20230308-091102/0.14.1-g22a4cb7",
         "via_device_id": null
       }
     ],
