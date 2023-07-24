@@ -6,8 +6,8 @@
     "areas": [
       {
         "aliases": [],
-        "name": "Soggiorno",
-        "id": "soggiorno",
+        "name": "Sala",
+        "id": "sala",
         "picture": null
       },
       {
@@ -17,9 +17,42 @@
         "picture": null
       },
       {
-        "aliases": [],
+        "aliases": [
+          "camera"
+        ],
         "name": "Camera da letto",
         "id": "camera_da_letto",
+        "picture": null
+      },
+      {
+        "aliases": [
+          "ingresso"
+        ],
+        "name": "Corridoio",
+        "id": "corridoio",
+        "picture": null
+      },
+      {
+        "aliases": [
+          "terrazza",
+          "terrazzo"
+        ],
+        "name": "Balcone",
+        "id": "balcone",
+        "picture": null
+      },
+      {
+        "aliases": [
+          "sgabuzzino"
+        ],
+        "name": "Lavanderia",
+        "id": "lavanderia",
+        "picture": null
+      },
+      {
+        "aliases": [],
+        "name": "Studio",
+        "id": "studio",
         "picture": null
       }
     ]
