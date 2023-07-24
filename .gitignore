@@ -2,7 +2,16 @@
 !.gitignore
 !*.md
 
-.storage
+.storage/auth
+.storage/auth_provider.homeassistant
+.storage/core.analytics
+.storage/core.config
+.storage/core.restore_state
+.storage/frontend.user_data*
+.storage/http.auth
+.storage/person
+.storage/trace.*
+
 .cloud
 .vscode
 .google.token

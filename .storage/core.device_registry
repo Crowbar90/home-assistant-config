@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "minor_version": 3,
+  "key": "core.device_registry",
+  "data": {
+    "devices": [
+      {
+        "area_id": null,
+        "config_entries": [
+          "64ac77949aee7e9e9bcde4a2de76156e"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "374b39ff15e81cfc7eb77e739109c886",
+        "identifiers": [
+          [
+            "sun",
+            "64ac77949aee7e9e9bcde4a2de76156e"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name_by_user": null,
+        "name": "Sun",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "b7224d7dba87fd5d9a8901ed16667343"
+        ],
+        "configuration_url": "http://shelly-luce-studio",
+        "connections": [
+          [
+            "mac",
+            "40:f5:20:01:c0:9f"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "gen1 (SHSW-1)",
+        "id": "5bbf7a9cd65d9740b4f0450fcae9714c",
+        "identifiers": [],
+        "manufacturer": "Shelly",
+        "model": "Shelly 1",
+        "name_by_user": null,
+        "name": "shelly-luce-studio",
+        "sw_version": "20230503-095514/v1.13.0-g9aed950",
+        "via_device_id": null
+      }
+    ],
+    "deleted_devices": []
+  }
+}
